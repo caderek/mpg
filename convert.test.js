@@ -6,7 +6,6 @@ const {
   convert,
   formatOutput,
 } = require("./convert")
-const convertNormal = require("./convert-normal")
 
 describe("add", () => {
   it("1 + 1 = 2", () => {
