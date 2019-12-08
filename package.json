@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "convert": "node src/index.js",
+    "convert": "node convert.js",
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@types/node": "^12.12.14",
