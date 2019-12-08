@@ -77,7 +77,7 @@ describe("subtract", () => {
 })
 
 describe("multiply", () => {
-  it("1 * 1 = 2", () => {
+  it("1 * 1 = 1", () => {
     const result = multiply(new Int8Array([1]), new Int8Array([1]), 0)
     const output = formatOutput(result, { whole: 1, fraction: 0 })
 
